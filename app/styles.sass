@@ -1,0 +1,217 @@
+$border-color: #E9EBED
+
+html
+  letter-spacing: 0.88px
+  font-size: 16px
+  font-weight: 500
+  color: #555555
+
+body
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif
+
+.row
+  display: flex
+  justify-content: space-around
+  margin-top: 150px
+  flex-wrap: wrap
+  text-align: center
+
+.column
+  display: flex
+  flex-direction: column
+  width: 500px
+  align-items: center
+
+.column input
+  border-radius: 3px
+  margin: 10px 0
+  padding: 5px
+  border: 1px solid rgba(0,0,0,0.43)
+  font-size: 16px
+  width: 80%
+
+.column label
+  text-align: center
+  font-size: 30px
+  font-weight: 200
+
+.space-list-items
+  margin-bottom: 7px
+
+.header
+  text-align: center
+  font-size: 30px
+  font-weight: 200
+
+.not-found
+  font-size: 4em
+  text-align: center
+  width: 100%
+
+.reset
+  border: none
+  background: transparent
+  color: #d0021b
+  display: block
+  width: 100%
+  text-align: center
+
+.reset:hover
+  cursor: pointer
+
+.container 
+  max-width: 1500px
+  margin: 0 auto
+
+ul
+  list-style: none
+  padding: 0
+
+a
+  text-decoration: none
+  color: inherit
+
+.nav
+  display: flex
+
+.nav li
+  margin-right: 15px
+
+.active
+  font-weight: 700
+
+.home-container
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.button 
+  color: #e6e6e6
+  background: #0a0a0a
+  border: none
+  font-size: 16px
+  border-radius: 3px
+  width: 200px
+  text-align: center
+  display: block
+  padding: 7px 0
+  margin: 10px auto
+
+
+.button:hover:enabled 
+  background: linear-gradient(#1a1a1a,#0a0a0a)
+  color: #fff
+  text-decoration: none
+
+
+.button:active 
+  transform: translateY(1px)
+
+
+
+.languages
+  display: flex
+  justify-content: center
+
+
+.languages li
+  margin: 10px
+  font-weight: 700
+  cursor: pointer
+
+.popular-list
+  display: flex
+  flex-wrap:  wrap
+  justify-content: space-around
+
+.popular-item
+  margin: 20px
+  display: flex
+  flex-direction: column
+  flex: 1
+  background: #fff
+  min-width: 300px
+  min-height: 275px
+  border-radius: 6px
+  border: 1px solid #E2E4E8
+  box-shadow: 0 4px 7px 1px #DCE1E6
+  position: relative
+
+.popular-item .header
+  content: ""
+  height: 82px
+  width: 100%
+  background: #0079BF
+  border-radius: 6px 6px 0 0
+  opacity: 0.2
+
+.space-list-items
+  margin: 30px 20px 7px 20px
+
+.avatar-wrapper
+  position: absolute
+  background: #fff
+  max-width: 60px
+  max-height: 60px
+  border-radius: 6px
+  border: 1px solid $border-color
+  display: flex
+  justify-content: center
+  align-items: center
+  left: 20px
+  top: 43px
+
+.avatar
+  max-width: 50px
+  padding: 20px
+  height: auto
+  z-index: 100
+  border-radius: 4px
+
+.repo-header
+  margin: 0
+  font-size: 1.25em
+  padding: 10px 0
+  text-transform: capitalize
+
+.repo-description
+  padding: 0
+  font-size: 14px
+  width: 100%
+  font-weight: 300
+  color: #7D8997
+  margin: 1px 0 10px 0
+  min-height: 55px
+  max-height: 55px
+  overflow: hidden
+  display: flex
+  align-content: center
+  
+.repo-content
+  z-index: 1000
+  width: 100%
+
+.repo-meta
+  display: flex
+  align-items: center
+  justify-content: space-between
+  text-align: center
+
+.repo-meta .visit-btn
+  border: 1px solid #e6e8eB
+  height: 26px
+  width: 74px
+  border-radius: 4px
+  text-transform: uppercase
+  display: flex
+  align-items: center
+  justify-content: center
+  cursor: pointer
+
+.repo-meta .visit-btn:hover
+   box-shadow: 0 2px 3px 1px #DCE1E6
+  
+.repo-meta .stars
+  font-weight: 300
+  color: #656565
+  font-size: 12px
