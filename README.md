@@ -11,6 +11,8 @@
 - Developing highly reusable components with defaultProps
 - Making production ready and deploying to Firebase
 
+#### I added my own styling to the popular page (shown below) since this is similar to an app I am currently working on and thought it would be a perfect prototype
+
 ## Working Demo
 https://github-battle-c5de0.firebaseapp.com/
 
